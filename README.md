@@ -12,9 +12,9 @@ O sistema utiliza um arquivo JSON para armazenar os dados dos produtos. Esse arq
 1. /login 
     /POST:  autentica um usuário com e-mail e senha e retorna um token JWT.
 2. /products
-    GET /produtos: retorna uma lista com todos os produtos.
-    POST /produtos: cria um novo produto com nome, descrição e preço.
-    PUT /produtos/:id: atualiza um produto pelo seu ID.
-    DELETE /produtos/:id: exclui um produto pelo seu ID.
+    1. GET /produtos: retorna uma lista com todos os produtos.
+    2. POST /produtos: cria um novo produto com nome, descrição e preço.
+    3. PUT /produtos/:id: atualiza um produto pelo seu ID.
+    4. DELETE /produtos/:id: exclui um produto pelo seu ID.
 # Autor: 
 ### Leonardo Bombassei.
